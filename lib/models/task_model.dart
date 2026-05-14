@@ -2,7 +2,7 @@ import 'package:equatable/equatable.dart';
 
 class TaskModel extends Equatable {
   final String taskName ;
-  final int taskId ;
+  final String taskId ;
   final bool isCompleted ;
   const TaskModel({required this.taskName, required this.taskId ,required this.isCompleted});
   @override
@@ -11,7 +11,7 @@ class TaskModel extends Equatable {
   List<Object?> get props => [taskName,taskId,isCompleted];
 
 
-  TaskModel copyWith({ String? taskName,  int? taskId, bool? isCompleted}){
+  TaskModel copyWith({ String? taskName,  String? taskId, bool? isCompleted}){
     return TaskModel(
         taskName: taskName?? this.taskName ,
         taskId: taskId?? this.taskId,
