@@ -1,6 +1,13 @@
-# Task Manager App
+<h1 align="center">📝 Task Manager App</h1>
 
-A clean, modern, and fully functional Task Management (ToDo) application built with Flutter. This application allows users to efficiently manage their daily tasks with a beautiful dark-themed user interface and robust state management.
+<p align="center">
+  <img src="https://img.shields.io/badge/Flutter-3.x-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Dart-3.x-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
+  <img src="https://img.shields.io/badge/BLoC-State%20Management-8A2BE2?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Platform-Android%20%7C%20iOS-lightgrey?style=for-the-badge"/>
+</p>
+
+A clean and modern Task Management app built with Flutter, allowing users to create, update, delete, and track their daily tasks — from **Pending** to **Completed**. Built with the **MVC** architectural pattern and **BLoC** for state management, ensuring a clean, scalable, and maintainable codebase.
 
 ## 📱 Screenshots
 
