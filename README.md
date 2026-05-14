@@ -4,31 +4,25 @@ A clean, modern, and fully functional Task Management (ToDo) application built w
 
 ## 📱 Screenshots
 
-*(You can add your screenshots here. Create a `screenshots` folder in the root directory and place your images there, then uncomment the lines below)*
-
-<!--
 <p align="center">
-  <img src="screenshots/home.jpeg" width="200" alt="Home Screen"/>
-  <img src="screenshots/add_task.jpeg" width="200" alt="Add Task Screen"/>
-  <img src="screenshots/edit_task.jpeg" width="200" alt="Edit Task Screen"/>
+  <img src="assets/Todo App.jpg" alt="App Screenshots" width="80%"/>
 </p>
--->
 
 ## ✨ Features
 
-* **Task Management**: Create, read, update, and delete (CRUD) tasks effortlessly.
-* **Status Tracking**: Mark tasks as "Pending" or "Completed".
-* **State Management**: Built using **BLoC (Business Logic Component)** for scalable and predictable state management.
-* **Modern UI**: A sleek dark mode interface with elegant green accents and smooth interactions.
-* **Responsive Layout**: Designed to work seamlessly across different mobile screen sizes.
+- **Task Management**: Create, read, update, and delete (CRUD) tasks effortlessly.
+- **Status Tracking**: Mark tasks as "Pending" or "Completed".
+- **State Management**: Built using **BLoC (Business Logic Component)** for scalable and predictable state management.
+- **Modern UI**: A sleek dark mode interface with elegant green accents and smooth interactions.
+- **Responsive Layout**: Designed to work seamlessly across different mobile screen sizes.
 
 ## 🛠️ Technology Stack
 
-* **Framework**: [Flutter](https://flutter.dev/)
-* **Language**: [Dart](https://dart.dev/)
-* **State Management**: [`flutter_bloc`](https://pub.dev/packages/flutter_bloc)
-* **Value Equality**: [`equatable`](https://pub.dev/packages/equatable)
-* **Unique Identifiers**: [`uuid`](https://pub.dev/packages/uuid)
+- **Framework**: [Flutter](https://flutter.dev/)
+- **Language**: [Dart](https://dart.dev/)
+- **State Management**: [`flutter_bloc`](https://pub.dev/packages/flutter_bloc)
+- **Value Equality**: [`equatable`](https://pub.dev/packages/equatable)
+- **Unique Identifiers**: [`uuid`](https://pub.dev/packages/uuid)
 
 ## 🚀 Getting Started
 
@@ -36,22 +30,25 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ### Prerequisites
 
-* Flutter SDK installed on your machine: [Install Flutter](https://docs.flutter.dev/get-started/install)
-* An IDE such as VS Code or Android Studio.
+- Flutter SDK installed on your machine: [Install Flutter](https://docs.flutter.dev/get-started/install)
+- An IDE such as VS Code or Android Studio.
 
 ### Installation
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
    ```
 
 2. **Navigate to the project directory:**
+
    ```bash
    cd your-repo-name
    ```
 
 3. **Install dependencies:**
+
    ```bash
    flutter pub get
    ```
@@ -73,16 +70,8 @@ lib/
 └── main.dart         # Application entry point
 ```
 
-## 🤝 Contributing
+## 👨‍💻 Author
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/your-username/your-repo-name/issues).
+**Hadi Heikal**
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- GitHub: [@HadiHeikal](https://github.com/HadiHeikal)
