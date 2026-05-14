@@ -1,16 +1,22 @@
-import 'package:counter_app/views/task/add_task_view.dart';
 import 'package:flutter/material.dart';
+
 class BuildTaskCard extends StatelessWidget {
   final String title;
   final bool isCompleted;
   final Function()? onTap;
   final Function()? onRemoveTap;
   final Function()? onEditTap;
-  const BuildTaskCard({super.key, required this.title, required this.isCompleted, this.onRemoveTap, this.onTap, this.onEditTap});
+  const BuildTaskCard({
+    super.key,
+    required this.title,
+    required this.isCompleted,
+    this.onRemoveTap,
+    this.onTap,
+    this.onEditTap,
+  });
 
   @override
   Widget build(BuildContext context) {
-
     return Padding(
       padding: const EdgeInsets.only(bottom: 10.0),
       child: GestureDetector(
@@ -79,8 +85,7 @@ class BuildTaskCard extends StatelessWidget {
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(12),
                   ),
-                  itemBuilder: (context) =>
-                  [
+                  itemBuilder: (context) => [
                     PopupMenuItem(
                       value: 'Edit',
                       onTap: onEditTap,
